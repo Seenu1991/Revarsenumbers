@@ -1,0 +1,205 @@
+Day2_Inheritance,Scanner,Datatype,access specifier
+DAY2:
+-----
+1.Inheritance
+2.Access specifiers
+3.Data types
+4.Scanner class
+
+
+
+QUESTIONS(Theory)
+--------------
+1.What is mean by inheritance?
+2.Types of inheritance and explain all types?
+3.What is mean by multiple inheritance,why java won't support multiple inheritance?
+4.Difference between hybrid and hierachical inheritance?
+5.What is the use of access specifier and types?
+6.Difference between public and protected?
+7.What is mean by Wrapper class?
+8.What is default value of String?
+9.What is difference between primitive and non primitive datatypes?
+10.What is default package in java?
+11.What is the super class of all java class?
+12.What is use of scanner class?
+13.What are the different methods available in Scanner class?
+14.Scanner class is under which package?
+15.Difference between next() and nextLine()?
+
+QUESTIONS(Programs)
+--------------------
+QUESTION 1:
+------------
+Description: Using Scanner class get the below details
+             empId
+             empName
+             empEmail
+             empPhoneno
+             empSalary
+             empGender
+             empCity
+
+
+QUESTION 2:
+-------------
+Description: Using Scanner class get the below details
+             studentId
+             studentName
+             Mark1
+             Mark2
+             Mark3
+             Mark4
+             Mark5
+           :Find the total and average of marks
+
+QUESTION 3:
+------------
+     package name: org.all
+     Project name: LanguageDetails
+     Class name  : Languageclass
+     Methods     : alllanguage
+
+     package name: org.tamil
+     Project name: LanguageDetails
+     Class name  : Tamil
+     Methods     : tamillanguage
+  
+     package name: org.english
+     Project name: LanguageDetails
+     Class name  : English
+     Methods     : englishlanguage
+
+     package name: org.telgu
+     Project name: LanguageDetails
+     Class name  : Telgu
+     Methods     : telgulanguage
+
+Description:
+create above 4 packages and call all your class methods into the Languageclass using multilevel inheritance.
+
+QUESTION 4:
+------------
+     package name: org.india
+     Project name: SouthIndia
+     Class name  : India
+     Methods     : india
+
+     package name: org.tamilnadu
+     Project name: SouthIndia
+     Class name  : TamiladuN
+     Methods     : tamillanguage
+  
+     package name: org.kerala
+     Project name: SouthIndia
+     Class name  : kerala
+     Methods     : malayalam
+
+     package name: org.andrapradesh
+     Project name: SouthIndia
+     Class name  : AndhraPradesh
+     Methods     : telugu
+
+Description:
+create above 4 packages and call all your class methods into the India using multilevel inheritance.
+
+QUESTION 5:
+-------------
+     Project   :CollegeInformation
+     Package   :org.college
+     Class     :College
+     Methods   :collegeName(),collegeCode(),collegeRank()
+
+     Class     :Student
+     Methods   :studentName(),studentDept(),studentId()
+
+     Class     :Hostel
+     Methods   :HostelName()
+
+     Class     :dept
+     Methods   :deptName()
+
+Description:
+create above 4 class and call all your class methods into the Student using multilevel inheritance.
+
+QUESTION 6:
+-----------
+     Project   :COmputer
+     Class     :Computer
+     Methods   :computerModel()
+
+     Class     :Desktop
+     Methods   :desktopSize()
+
+Description:
+create above 2 class and call all your class methods into the Desktop using single inheritance.
+
+QUESTION 7:
+-----------
+     Project   :LanguageDetails
+     Package   :org.lang
+     Class     :LanguageInfo
+     Methods   :tamilLanguage(),englishLanguage(),hindiLanguage()
+
+     Class     :StateDetails
+     Methods   :southIndia(),northIndia()
+
+Description:
+create above 2 class and call all your class methods into the LanguageInfo using single inheritance.
+
+
+QUESTION 8:
+------------
+Description: Using Scanner class get the below details
+             StudentId
+             StudentName
+             StudentEmail
+             StudentPhoneno
+             StudentDept
+             StudentGender
+             StudentCity
+
+QUESTION 9:
+------------
+     Project   :BankDetails
+     Package   :org.bank
+     Class     :BankInfo
+     Methods   :saving(),fixed()
+
+     Class     :AxisBank
+     Methods   :deposit()
+
+Description:
+create above 2 class and call all your class methods into the BankInfo using single inheritance.
+
+QUESTION 10:
+-------------
+     Project   :CompanyDetails
+     Package   :org.company
+     Class     :Company
+     Methods   :companyName()
+
+     Package   :org.client
+     Class     :Client
+     Methods   :clientName()
+
+Description:
+create above 2 packages and call all your class methods into the Comapany using single inheritance.
+
+QUESTION 11:
+------------
+     Project   :EducationInformation
+     Package   :org.edu
+     Class     :Education
+     Methods   :ug(),pg()
+
+     Class     :Arts
+     Methods   :bsc(),bEd(),bA(),bBA()
+
+     Class     :Engineering
+     Methods   :bE(),bTech()
+
+     Class     :Medicine
+     Methods   :physiyo(),dental(),mbbs()
+
+Description:
+create above 4 class and call all your class methods into the Education using multilevel inheritance.

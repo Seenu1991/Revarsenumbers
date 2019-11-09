@@ -1,0 +1,92 @@
+Read Value from XML using JAXB: 
+------
+QUESTIONS(Theroy) 
+------
+1.What is JAXB stands for?
+2.What is marshal and unmarshal?
+3.What are all the annotations available in JAXB and its used for?
+4.What are all the jar files needed for JAXB?
+5.What is JAXBContext?
+
+QUESTIONS(Practical)
+--------------------
+QUESTION 1
+----------
+
+ NOTE: Read all the values from below XML file using JAXB.
+
+
+      <?xml version="1.0" encoding="UTF-8"?> 
+      <employee>
+  <emp>
+    <name>Vimal Jaiswal</name>
+    <salary>50000.0</salary>
+    <employeepersonal>
+      <address>Chennai</address>
+      <age>24</age>
+      <dob>10.06.1992</dob>
+      <email>vimal@gmail.com</email>
+    </employeepersonal>
+  </emp>
+
+  <emp>
+    <name>Suresh</name>
+    <salary>36000.0</salary>
+    <employeepersonal>
+      <address>Trichy</address>
+      <age>22</age>
+      <dob>10.05.1996</dob>
+      <email>suresh@gmail.com</email>
+    </employeepersonal>
+  </emp>
+
+  <emp>
+    <name>Ramesh</name>
+    <salary>25000</salary>
+    <employeepersonal>
+      <address>Coimbatore</address>
+      <age>21</age>
+      <dob>16.11.1997</dob>
+      <email>ramesh@gmail.com</email>
+    </employeepersonal>
+  </emp>
+        </employee> 
+    
+
+    
+QUESTION 2
+----------
+NOTE: Update below details in XML using JAXB?
+             
+      CompanyDetails:
+
+      CompanyName- Capgemini
+
+      CompanyLocation- Chennai
+
+      NatureOfCompany- IT(Software)
+
+      CompanyName- CTS
+
+      CompanyLocation- Delhi
+
+      NatureOfCompany- IT(Software)
+
+      CompanyName- Hexaware
+
+      CompanyLocation-Mumbai
+
+      NatureOfCompany- IT(Software)
+
+      CompanyLocation-TCS
+
+      CompanyLocation-Bangalore
+
+      NatureOfCompany- IT(Software)
+
+      CompanyLocation- Wipro
+
+      CompanyLocation- Chennai
+
+      NatureOfCompany- IT(Software)
+                                     

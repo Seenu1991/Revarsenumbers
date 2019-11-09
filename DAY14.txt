@@ -1,0 +1,42 @@
+DAY14
+-----
+CSV
+
+QUESTIONS(Theory)
+------------------
+1.What is CSVReader?
+2.What is CSVParser?
+3.What is BufferedReader?
+4.What are all the methods available in CSVReader and CSVParser?
+5.What is FileWritter?
+6.Which class have to use for CSV writting?
+
+QUESTIONS(Practical)
+-------------------
+Data for questions 1 to 3
+---------------------------
+Name	Rollno	Department	Result	Cgpa
+Amar	42	CSE	Pass	8.6
+Rohini	21	ECE	Fail	3.2
+Aman	23	CSE	Pass	8.9
+Rahul	45	EEE	Fail	4.6
+Pratik	65	CSE	Pass	7.2
+Raunak	23	ME	Pass	9.1
+
+
+QUESTION 1
+-----------
+NOTE: Read all the values in the above CSV file. 
+QUESTION 2
+-----------
+NOTE: Read name column values in the above csv file.
+QUESTION 3
+-----------
+NOTE: Read last 3 row details in the above CSV file. 
+QUESTION 4
+-----------
+NOTE: Write below details to CSV file.
+EmployeeID- 31, 32, 33, 34,35
+EmployeeName- Ramesh, Gobi, Praveen, Sairam, Charan
+EmployeeAge- 26,32,21,28,23
+EmployeeSalary- 20000,30000,22000,28369,23500
